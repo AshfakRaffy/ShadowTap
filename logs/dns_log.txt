@@ -1,0 +1,48 @@
+from datetime import datetime  # Add this import at the top
+
+def log_activity(info):
+    with open("logs/dns_log.txt", "a") as log_file:
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        log_file.write(f"[{timestamp}] {info['source_ip']} visited {info['domain']}\n")
+
+192.168.168.47 visited edge-chat.facebook.com
+192.168.168.47 visited edge-chat.facebook.com
+192.168.168.47 visited edge-chat.facebook.com
+192.168.168.47 visited www.instagram.com
+192.168.168.47 visited www.instagram.com
+192.168.168.47 visited www.instagram.com
+192.168.168.47 visited ssl.gstatic.com
+192.168.168.47 visited ssl.gstatic.com
+192.168.168.47 visited ssl.gstatic.com
+192.168.168.47 visited assets.msn.com
+192.168.168.47 visited assets.msn.com
+192.168.168.47 visited msedge.api.cdp.microsoft.com
+192.168.168.47 visited msedge.api.cdp.microsoft.com
+192.168.168.47 visited config.edge.skype.com
+192.168.168.47 visited config.edge.skype.com
+192.168.168.47 visited www.bing.com
+192.168.168.47 visited www.bing.com
+192.168.168.47 visited mobile.events.data.microsoft.com
+192.168.168.47 visited mobile.events.data.microsoft.com
+192.168.168.47 visited mobile.events.data.microsoft.com
+192.168.168.47 visited edge-chat.facebook.com
+192.168.168.47 visited edge-chat.facebook.com
+192.168.168.47 visited edge-chat.facebook.com
+192.168.168.47 visited www.instagram.com
+192.168.168.47 visited www.instagram.com
+192.168.168.47 visited www.instagram.com
+192.168.168.123 visited _hotspot._tcp.local
+192.168.134.47 visited graph.microsoft.com
+192.168.134.47 visited graph.microsoft.com
+192.168.134.47 visited mobile.events.data.microsoft.com
+192.168.134.47 visited mobile.events.data.microsoft.com
+192.168.134.47 visited mobile.events.data.microsoft.com
+192.168.134.47 visited teams.events.data.microsoft.com
+192.168.134.47 visited teams.events.data.microsoft.com
+192.168.134.47 visited teams.events.data.microsoft.com
+192.168.134.47 visited mobile.events.data.microsoft.com
+192.168.134.47 visited mobile.events.data.microsoft.com
+192.168.134.47 visited mobile.events.data.microsoft.com
+192.168.134.47 visited main.vscode-cdn.net
+192.168.134.47 visited main.vscode-cdn.net
+192.168.134.47 visited main.vscode-cdn.net
