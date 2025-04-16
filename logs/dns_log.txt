@@ -46,3 +46,10 @@ def log_activity(info):
 192.168.134.47 visited main.vscode-cdn.net
 192.168.134.47 visited main.vscode-cdn.net
 192.168.134.47 visited main.vscode-cdn.net
+192.168.184.47 visited spclient.wg.spotify.com
+192.168.184.47 visited spclient.wg.spotify.com
+192.168.184.47 visited spclient.wg.spotify.com
+192.168.184.47 visited spclient.wg.spotify.com
+192.168.184.47 visited safebrowsing.googleapis.com
+192.168.184.47 visited safebrowsing.googleapis.com
+192.168.184.47 visited safebrowsing.googleapis.com
